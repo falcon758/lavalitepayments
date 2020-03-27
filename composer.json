@@ -9,6 +9,7 @@
             "email": "info@lavalite.org"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.6.4"
     },
