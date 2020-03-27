@@ -19,6 +19,5 @@
         "psr-4": {
             "Shopping\\Payments\\": "src"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
