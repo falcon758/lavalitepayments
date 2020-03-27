@@ -4,7 +4,7 @@ Lavalite package that provides payments management facility for the cms.
 
 Begin by installing this package through Composer. Edit your project's `composer.json` file to require `shopping/payments`.
 
-    "shopping/payments": "dev-master"
+    "falcon758/lavalitepayments": "dev-master"
 
 Next, update Composer from the Terminal:
 
