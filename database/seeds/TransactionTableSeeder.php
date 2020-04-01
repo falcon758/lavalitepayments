@@ -5,7 +5,7 @@ namespace Shopping;
 use DB;
 use Illuminate\Database\Seeder;
 
-class PaymentsTableSeeder extends Seeder
+class TranssactionTableSeeder extends Seeder
 {
     public function run()
     {
