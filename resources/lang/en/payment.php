@@ -74,7 +74,7 @@ return [
     /**
      * Columns array for show hide checkbox.
      */
-    'cloumns'         => [
+    'columns'         => [
         'order_id'                   => ['name' => 'Order id', 'data-column' => 1, 'checked'],
         'client_id'                  => ['name' => 'Client id', 'data-column' => 2, 'checked'],
         'method'                     => ['name' => 'Method', 'data-column' => 3, 'checked'],
