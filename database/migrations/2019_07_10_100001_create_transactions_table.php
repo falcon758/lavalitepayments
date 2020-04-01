@@ -21,7 +21,7 @@ class CreateTransactionsTable extends Migration
         Schema::create('transactions', function ($table) {
             $table->increments('id');
             $table->integer('user_id')->nullable();
-            $table->string('user_tye', 200)->nullable();
+            $table->string('user_type', 200)->nullable();
             $table->integer('seller_id')->nullable();
             $table->float('amount')->nullable();
             $table->float('tax_amount')->nullable();
