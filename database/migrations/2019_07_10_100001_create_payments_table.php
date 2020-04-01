@@ -24,6 +24,7 @@ class CreatePaymentsTable extends Migration
             $table->integer('user_id')->nullable();
             $table->string('user_type', 200)->nullable();
             $table->integer('client_id')->nullable();
+            $table->string('slug', 200)->nullable();
             $table->string('method', 200)->nullable();
             $table->text('address')->nullable();
             $table->string('code', 200)->nullable();
