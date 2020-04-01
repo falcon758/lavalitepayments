@@ -25,7 +25,7 @@ return [
     'placeholder'   => [
         'id'                         => 'Please enter id',
         'user_id'                    => 'Please enter user id',
-        'user_tye'                   => 'Please enter user tye',
+        'user_type'                   => 'Please enter user type',
         'seller_id'                  => 'Please enter seller id',
         'amount'                     => 'Please enter amount',
         'tax_amount'                 => 'Please enter tax amount',
@@ -48,7 +48,7 @@ return [
     'label'         => [
         'id'                         => 'Id',
         'user_id'                    => 'User id',
-        'user_tye'                   => 'User tye',
+        'user_type'                   => 'User type',
         'seller_id'                  => 'Seller id',
         'amount'                     => 'Amount',
         'tax_amount'                 => 'Tax amount',
@@ -69,7 +69,7 @@ return [
      * Columns array for show hide checkbox.
      */
     'cloumns'         => [
-        'user_tye'                   => ['name' => 'User tye', 'data-column' => 1, 'checked'],
+        'user_type'                   => ['name' => 'User type', 'data-column' => 1, 'checked'],
         'seller_id'                  => ['name' => 'Seller id', 'data-column' => 2, 'checked'],
         'amount'                     => ['name' => 'Amount', 'data-column' => 3, 'checked'],
         'tax_amount'                 => ['name' => 'Tax amount', 'data-column' => 4, 'checked'],
