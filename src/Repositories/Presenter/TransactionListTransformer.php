@@ -13,7 +13,7 @@ class TransactionListTransformer extends TransformerAbstract
             'id'                => $transaction->getRouteKey(),
             'id'                => $transaction->id,
             'user_id'           => $transaction->user_id,
-            'user_tye'          => $transaction->user_tye,
+            'user_type'         => $transaction->user_type,
             'seller_id'         => $transaction->seller_id,
             'amount'            => $transaction->amount,
             'tax_amount'        => $transaction->tax_amount,
