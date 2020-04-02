@@ -63,11 +63,11 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                      
-                                    <label for="search[user_tye]" class="col-sm-2 control-label">
-                                        {!! trans('payments::transaction.label.user_tye')!!}
+                                    <label for="search[user_type]" class="col-sm-2 control-label">
+                                        {!! trans('payments::transaction.label.user_type')!!}
                                     </label>
                                     <div class="col-sm-10">
-                                        {!! Form::text('search[user_tye]')->raw()!!}
+                                        {!! Form::text('search[user_type]')->raw()!!}
                                     </div>
                                 </div>
                             </div>
