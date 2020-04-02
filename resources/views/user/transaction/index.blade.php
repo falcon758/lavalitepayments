@@ -39,17 +39,17 @@
                             <thead>
                                 <tr>
                                     <th class="text-center">Image</th>
-                                    <th>{!! trans('payments::transaction.label.user_tye')!!}</th>
-                    <th>{!! trans('payments::transaction.label.seller_id')!!}</th>
-                    <th>{!! trans('payments::transaction.label.amount')!!}</th>
-                    <th>{!! trans('payments::transaction.label.tax_amount')!!}</th>
-                    <th>{!! trans('payments::transaction.label.tax_type')!!}</th>
-                    <th>{!! trans('payments::transaction.label.type')!!}</th>
-                    <th>{!! trans('payments::transaction.label.bank_ref')!!}</th>
-                    <th>{!! trans('payments::transaction.label.details')!!}</th>
-                    <th>{!! trans('payments::transaction.label.date_from')!!}</th>
-                    <th>{!! trans('payments::transaction.label.date_to')!!}</th>
-                    <th>{!! trans('payments::transaction.label.commission')!!}</th>
+                                    <th>{!! trans('payments::transaction.label.user_type')!!}</th>
+                                    <th>{!! trans('payments::transaction.label.seller_id')!!}</th>
+                                    <th>{!! trans('payments::transaction.label.amount')!!}</th>
+                                    <th>{!! trans('payments::transaction.label.tax_amount')!!}</th>
+                                    <th>{!! trans('payments::transaction.label.tax_type')!!}</th>
+                                    <th>{!! trans('payments::transaction.label.type')!!}</th>
+                                    <th>{!! trans('payments::transaction.label.bank_ref')!!}</th>
+                                    <th>{!! trans('payments::transaction.label.details')!!}</th>
+                                    <th>{!! trans('payments::transaction.label.date_from')!!}</th>
+                                    <th>{!! trans('payments::transaction.label.date_to')!!}</th>
+                                    <th>{!! trans('payments::transaction.label.commission')!!}</th>
                                     <th></th>
                                 </tr>
                             </thead>
@@ -63,17 +63,17 @@
                                             </a>
                                         </div>
                                     </td>
-                                    <td>{{ $transaction->user_tye }}</td>
-                    <td>{{ $transaction->seller_id }}</td>
-                    <td>{{ $transaction->amount }}</td>
-                    <td>{{ $transaction->tax_amount }}</td>
-                    <td>{{ $transaction->tax_type }}</td>
-                    <td>{{ $transaction->type }}</td>
-                    <td>{{ $transaction->bank_ref }}</td>
-                    <td>{{ $transaction->details }}</td>
-                    <td>{{ $transaction->date_from }}</td>
-                    <td>{{ $transaction->date_to }}</td>
-                    <td>{{ $transaction->commission }}</td>
+                                    <td>{{ $transaction->user_type }}</td>
+                                    <td>{{ $transaction->seller_id }}</td>
+                                    <td>{{ $transaction->amount }}</td>
+                                    <td>{{ $transaction->tax_amount }}</td>
+                                    <td>{{ $transaction->tax_type }}</td>
+                                    <td>{{ $transaction->type }}</td>
+                                    <td>{{ $transaction->bank_ref }}</td>
+                                    <td>{{ $transaction->details }}</td>
+                                    <td>{{ $transaction->date_from }}</td>
+                                    <td>{{ $transaction->date_to }}</td>
+                                    <td>{{ $transaction->commission }}</td>
                                     <td class="td-actions">
                                         <a href="{{trans_url('transaction')}}/{!!$transaction->getPublicKey()!!}" rel="tooltip" data-toggle="tooltip" data-placement="top" title="View Transaction" class="btn btn-info btn-simple">
                                             <i class="material-icons">panorama</i>
