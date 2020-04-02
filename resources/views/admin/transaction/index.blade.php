@@ -34,7 +34,7 @@
                 <table id="payments-transaction-list" class="table table-striped data-table">
                     <thead class="list_head">
                         <th style="text-align: right;" width="1%"><a class="btn-reset-filter" href="#Reset" style="display:none; color:#fff;"><i class="fa fa-filter"></i></a> <input type="checkbox" id="payments-transaction-check-all"></th>
-                        <th>{!! trans('payments::transaction.label.user_tye')!!}</th>
+                        <th>{!! trans('payments::transaction.label.user_type')!!}</th>
                     <th>{!! trans('payments::transaction.label.seller_id')!!}</th>
                     <th>{!! trans('payments::transaction.label.amount')!!}</th>
                     <th>{!! trans('payments::transaction.label.tax_amount')!!}</th>
@@ -92,7 +92,7 @@ $(document).ready(function(){
 
         "columns": [
             {data :'id'},
-            {data :'user_tye'},
+            {data :'user_type'},
             {data :'seller_id'},
             {data :'amount'},
             {data :'tax_amount'},
