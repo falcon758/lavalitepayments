@@ -1,8 +1,8 @@
             <div class='row'>
                 <div class='col-md-4 col-sm-6'>
-                       {!! Form::text('user_tye')
-                       -> label(trans('payments::transaction.label.user_tye'))
-                       -> placeholder(trans('payments::transaction.placeholder.user_tye'))!!}
+                       {!! Form::text('user_type')
+                       -> label(trans('payments::transaction.label.user_type'))
+                       -> placeholder(trans('payments::transaction.placeholder.user_type'))!!}
                 </div>
 
                 <div class='col-md-4 col-sm-6'>
