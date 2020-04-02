@@ -92,7 +92,7 @@ return [
             'slugs'                 => ['slug' => 'name'],
             'dates'                 => ['deleted_at'],
             'appends'               => [],
-            'fillable'              => ['user_id', 'id',  'user_id',  'user_tye',  'seller_id',  'amount',  'tax_amount',  'tax_type',  'status',  'type',  'bank_ref',  'details',  'date_from',  'date_to',  'commission',  'created_at',  'updated_at',  'deleted_at'],
+            'fillable'              => ['user_id', 'id',  'user_id',  'user_type',  'seller_id',  'amount',  'tax_amount',  'tax_type',  'status',  'type',  'bank_ref',  'details',  'date_from',  'date_to',  'commission',  'created_at',  'updated_at',  'deleted_at'],
             'translatables'         => [],
             'upload_folder'         => 'payments/transaction',
             'uploads'               => [],
